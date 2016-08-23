@@ -1,0 +1,23 @@
+SuperReduceString 
+
+obs:
+1 sequence can no be changed.
+
+
+#do-while loop with flag 
+
+algo:
+	stringReduced-Flag = false;
+	do
+		stringReduced = false
+		read input string 
+		for s to s-2
+			if s[i] == s[i+1]
+		    s.deleteCharAt(s[i]) and s.deleteCharAt(s[i+1]) 
+			stringReduced = true  
+	while(stringReduced)
+
+	if string is empty --> print  "EMPTY STRING"
+	else print String 
+	
+#case 1 : baab
