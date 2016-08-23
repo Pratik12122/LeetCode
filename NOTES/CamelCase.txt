@@ -1,0 +1,26 @@
+CamelCase
+
+Input:
+saveChangesInTheEditor
+
+output:
+5
+
+Algo:
+	init count = 1 
+	
+	for each uppercase latter 
+		count++
+		
+	return count;
+		
+		
+		
+case 1 : s == 1
+		return 1;
+		
+		
+--> how to get char ascii value (int)? 
+	int ch = (int) s.charAt(i);
+
+

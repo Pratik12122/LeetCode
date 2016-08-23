@@ -22,7 +22,7 @@ public class Solution {
     	int num[]=new int[]{2,1,8,3,45,36,22};
     	int target=8;
     	int result[]=twoSum(num, target);
-    	
+    	ArrayList<Integer> test =new ArrayList<Integer>();	
     	//System.out.println(everyNth("Chocolate", 3));
      	//System.out.println(diff21(30));
     	//System.out.println(bubbleSort(num));
