@@ -1,0 +1,27 @@
+Pangrams
+	Pangrams are sentences constructed by using every letter of the alphabet at least once
+	
+input:We promptly judged antique ivory buckles for the next prize
+
+output:We promptly judged antique ivory buckles for the next prize
+
+input:Roy wanted to increase his typing speed
+
+output:not pangram
+	
+#Algo:
+	
+	if s.length()<26 -->  not pangram
+	
+	create a map having A-Z a-z alphabets 
+	
+	iterate through s 
+		if Map contains s.charAt(i)  remove 
+		
+	if map size is 0 then return s
+	else return not pangram
+	
+	
+case: 
+	
+	
