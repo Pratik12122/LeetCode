@@ -1,0 +1,7 @@
+
+
+
+@javax.persistence.Entity
+public class TestClass {
+
+}

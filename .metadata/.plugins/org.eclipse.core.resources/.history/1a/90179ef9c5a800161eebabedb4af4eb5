@@ -1,0 +1,7 @@
+import org.hibernate.annotations.Entity;
+
+
+@javax.persistence.Entity
+public class TestClass {
+
+}

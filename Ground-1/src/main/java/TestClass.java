@@ -1,0 +1,11 @@
+import javax.persistence.*;
+
+
+
+
+@Entity
+@Table(name="TestTable")
+public class TestClass {
+
+	
+}
