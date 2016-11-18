@@ -1,0 +1,14 @@
+
+public class FunWithExceptions {
+	public static void main(String args[]){
+		
+	}
+	
+	private void matchProviders(String p1, String p2) throws ProviderMisMatchException  {
+		if(p1.equalsIgnoreCase(p2)){
+			System.out.println("Providers Match");
+		}else{
+			throw new ProviderMisMatchException("Provider MisMatch");
+		}
+	}
+}

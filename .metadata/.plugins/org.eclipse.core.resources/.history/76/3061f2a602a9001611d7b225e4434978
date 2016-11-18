@@ -1,0 +1,7 @@
+
+public class ProviderMisMatchException extends Exception{
+	public ProviderMisMatchException(){}
+	public ProviderMisMatchException(String message){
+		super(message);
+	}
+}
